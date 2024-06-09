@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Centrando divs</title>
+  <link rel="stylesheet" href="./estilos.css" />
+  <!-- Cambia el enlace del archivo CSS aquí -->
+  <link rel="stylesheet" href="" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0px;
+      padding: 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="contenedorPadre">
+    <div id="contenedorHijo"></div>
+  </div>
+</body>
+
+</html>
+<style>
+#contenedorPadre {
+  width: 400px;
+  height: 400px;
+  background-color: #f55353;
+}
+#contenedorHijo {
+  width: 100px;
+  height: 100px;
+  background-color: #feb139;
+}
+/*Centrar*/
+#contenedorPadre {
+  position: relative;
+}
+#contenedorHijo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
