@@ -1,0 +1,136 @@
+/* Estilo para el encabezado */
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: #8d0c0c;
+    /* Color de fondo del encabezado */
+    color: #000000;
+    /* Color del texto del encabezado */
+    padding: 10px;
+    /* Espaciado interno del encabezado */
+}
+
+/*Color del fondo de la pagina*/
+body {
+    background-color: #34778279;
+}
+
+/*Color del fondo*/
+
+header h1 {
+    margin: 0;
+    /* Elimina el margen del título */
+    padding-left: 22px;
+    /* Espaciado izquierdo del título */
+}
+
+/* Estilo para la navegación */
+nav ul {
+    list-style-type: none;
+    /* Elimina los puntos de la lista */
+    padding: 0;
+    /* Elimina el relleno de la lista */
+}
+
+nav ul li {
+    display: inline;
+    /* Muestra los elementos de la lista en línea */
+    margin-right: 20px;
+    /* Espaciado entre los elementos de la lista */
+}
+
+nav ul li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    /* Elimina la decoración de los enlaces */
+    color: #cccc14;
+    /* Color del texto de los enlaces */
+    font-size: 1.5em;
+    /* Tamaño del texto de los enlaces */
+}
+
+/*Texto de inicio */
+nav ul li a {
+    color: #ec0909;
+    /*Color de letra*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*Tipo de letra*/
+
+
+}
+
+/* Estilo para las secciones */
+main section {
+    margin-bottom: 30px;
+    /* Margen inferior de las secciones */
+    padding: 20px;
+    /* Espaciado interno de las secciones */
+}
+
+div {
+    background-color: #ebfc03;
+    /* Color de fondo */
+    position: absolute;
+    /* Posicionamiento absoluto para ubicar en la esquina superior derecha */
+    top: 10px;
+    /* Distancia desde la parte superior */
+    right: 10px;
+    /* Distancia desde la parte derecha */
+    color: #000000;
+    /* Color del texto */
+}
+
+/*Color del texto de inscribete*/
+a {
+    color: rgb(255, 8, 0);
+    margin-bottom: 10px;
+    top: 10px;
+    /* Distancia desde la parte superior */
+    right: 10px;
+    /* Distancia desde la parte derecha */
+
+}
+
+
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    /* Color de fondo del pie de página */
+    color: white;
+    /* Color del texto del pie de página */
+    text-align: center;
+    /* Alineación del texto en el centro */
+    padding: 10px 0;
+    /* Espaciado interno del pie de página */
+}
+
+/*Animancion*/
+@keyframes anim {
+    0% {
+        background-color: #ff0;
+    }
+
+    /*Amarillo*/
+    25% {
+        background-color: rgb(27, 138, 8);
+    }
+
+    /*Verde*/
+    50% {
+        background-color: #08a7eb;
+    }
+
+    /*Celeste*/
+    75% {
+        background-color: rgb(112, 51, 40);
+    }
+
+    /*Otra vez naranja*/
+    100% {
+        background-color: #ff0;
+    }
+
+    /*Otra vez amarillo*/
+}
+

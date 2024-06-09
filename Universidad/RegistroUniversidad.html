@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Universidad</title>
+    <link rel="stylesheet" href="RegistroUniversidad.css">
+</head>
+<nav>
+    <ul>
+        <!-- Enlace al inicio -->
+        <li><a href="Universidad.html">Inicio</a></li>
+    </ul>
+</nav>
+
+     <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Formulario de registro -->
+        <form action="registro.php" method="POST">
+            <!-- Título del formulario -->
+            <h2>Registro Universidad</h2>
+            <!-- Campo de nombre -->
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <!-- Campo de correo electrónico -->
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <!-- Campo de teléfono -->
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <!-- Campo de contraseña -->
+            <div class="form-group">
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" id="contraseña" name="contraseña" required>
+            </div>
+            <!-- Botón de registro -->
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+</body>
+
+</html>

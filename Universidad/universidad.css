@@ -1,0 +1,89 @@
+/* Estilo para el título en el encabezado */
+header {
+    background-color: #05abd4;
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Estilo para el logo */
+.logo-container {
+    text-align: left;
+}
+
+/* Estilo para la fecha y hora */
+.date-time {
+    color: rgb(8, 0, 0);
+    text-align: right;
+    margin-top: -25px;
+}
+
+/* Estilo para la barra de navegación */
+nav {
+    background-color: #292727;
+    padding: 5px;
+    text-align: center;
+    border-style: solid;
+}
+
+/* Estilo para la lista de enlaces de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo para los elementos de la lista de enlaces de navegación */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilo para los enlaces de navegación */
+nav ul li a {
+    text-decoration: none;
+    color: #fffb03;
+}
+
+/* Cambiar color de enlace al pasar el cursor */
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+/* Estilo para el carrusel de imágenes */
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para la información */
+.info-container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #383835;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Estilo para el texto de inscripción */
+.inscription {
+    margin-bottom: 10px;
+}
+
+/*Animancion*/
+@keyframes anim{
+    0% {background-color: #ff0;} /*Amarillo*/
+   25% {background-color: rgb(27, 138, 8);} /*Verde*/
+   50% {background-color: #08a7eb;} /*Celeste*/
+   75% {background-color: rgba(159, 3, 248, 0.922);} /*Rosa*/
+  100% {background-color: #ff0;} /*Otra vez amarillo*/
+}
+header {
+  animation-name: anim;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}

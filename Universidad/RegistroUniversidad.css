@@ -1,0 +1,112 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8a0707;
+    /* Color de fondo */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    width: 400px;
+    /* Ancho del contenedor */
+    margin: 50px auto;
+    /* Margen exterior */
+    background-color: #e6e5c0fa;
+    /* Color de fondo */
+    padding: 20px;
+    /* Espaciado interno */
+    border-radius: 10px;
+    /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+}
+
+/* Estilo para el título del formulario */
+h2 {
+    text-align: center;
+    /* Alineación centrada */
+    margin-bottom: 20px;
+    /* Margen inferior */
+}
+
+/* Estilo para los grupos de campos del formulario */
+.form-group {
+    margin-bottom: 15px;
+    /* Margen inferior */
+}
+nav ul li a{
+    color: #f90000;
+    /*Color de letra*/
+    font-family: Arial, Helvetica, sans-serif;
+     /*Tipo de letra*/
+
+}
+
+/* Estilo para las etiquetas de los campos */
+label {
+    display: block;
+    /* Mostrar en bloque */
+    font-weight: bold;
+    /* Texto en negrita */
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 90%;
+    /* Ancho del campo */
+    padding: 10px;
+    /* Espaciado interno */
+    border: 2px solid #423732;
+    /* Borde */
+    border-radius: 5px;
+    /* Borde redondeado */
+}
+
+/* Estilo para el botón de registro */
+button {
+    width: 100%;
+    /* Ancho del botón */
+    padding: 10px;
+    /* Espaciado interno */
+    background-color: #8fd6d1;
+    /* Color de fondo */
+    color: #1e1f0f;
+    /* Color del texto */
+    border: none;
+    /* Sin borde */
+    border-radius: 5px;
+    /* Borde redondeado */
+    cursor: pointer;
+    /* Cursor al pasar */
+}
+
+/* Cambiar color del botón al pasar el cursor */
+button:hover {
+    background-color: #04fd11;
+    /* Nuevo color de fondo */
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://pbs.twimg.com/media/DfFpSLsV4AEmE5_.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+@keyframes anim{
+    0% {background-color: #ff0;} /*Amarillo*/
+   25% {background-color: rgb(27, 138, 8);} /*Verde*/
+   50% {background-color: #08a7eb;} /*Celeste*/
+   75% {background-color: rgb(112, 51, 40);} /*Otra vez naranja*/
+  100% {background-color: #ff0;} /*Otra vez amarillo*/
+}
+button:hover {
+  animation-name: anim;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
